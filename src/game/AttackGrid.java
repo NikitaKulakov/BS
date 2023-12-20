@@ -28,7 +28,7 @@ public class AttackGrid extends BattleGrid {
         JPanel panel = new JPanel();
         panel.setBackground(Color.black);
         panel.setBorder(BorderFactory.createLineBorder(Color.red, 2));
-        panel.setPreferredSize(new Dimension(20, 20)); // for demo purposes only
+        panel.setPreferredSize(new Dimension(20, 20));
 
         panel.addMouseListener(new MouseAdapter() {
             @Override
